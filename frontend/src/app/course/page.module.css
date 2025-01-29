@@ -1,0 +1,32 @@
+.courseheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem 0;
+  }
+  /* page.module.css */
+  
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 500px;
+  }
+  
+  .searchInput {
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex: 1;
+  }
+  
+  
+  .searchButton {
+    border: 1px solid #007bff; 
+    background: #007bff;
+    padding: 10px 20px; 
+    color: white; 
+    cursor: pointer;
+  }

@@ -1,0 +1,45 @@
+.main {
+
+}
+
+.signInModal {
+  width: 420px;
+  display: flex;
+  justify-content: center;
+}
+
+.userInfo {
+  color: white;
+}
+
+.mainPageTitle {
+  font-size: 48px;
+}
+
+.mainPageDesc {
+  font-weight: normal;
+  margin-bottom: 24px;
+}
+
+.mainBackground {
+  text-align: center;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bgImageWrap {
+  width: 83vw;
+  height: 31vw;
+  overflow: hidden;
+}
+
+.bgImage {
+  width: 100%;
+  height: 60vw;
+  background-image: url("/welcome.svg");
+  background-size: 100% 100%;
+  background-position: center -23vw;
+  background-repeat: no-repeat;
+}
